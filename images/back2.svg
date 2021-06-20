@@ -1,0 +1,22 @@
+<svg width="971" height="300" viewBox="0 0 971 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="back2">
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="636" y="0" width="335" height="300">
+<path id="Vector" d="M946.162 300H660.838C651.961 300 643.759 295.211 639.325 287.444C634.892 279.677 634.892 270.105 639.325 262.332L781.982 12.556C786.415 4.78853 794.617 0 803.495 0C812.372 0 820.574 4.78853 825.008 12.556L967.675 262.332C972.108 270.099 972.108 279.671 967.675 287.444C963.236 295.211 955.039 300 946.162 300ZM703.864 249.776H903.141L803.495 75.3307L703.864 249.776Z" fill="#E21B1B"/>
+</mask>
+<g mask="url(#mask0)">
+<g id="Rectangle 1">
+<rect width="971" height="300" fill="#E075F5"/>
+<rect width="971" height="300" stroke="black"/>
+</g>
+</g>
+<mask id="mask1" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="300" height="300">
+<path id="Vector_2" d="M150 0C67.1571 0 0 67.1571 0 150C0 232.843 67.1571 300 150 300C232.843 300 300 232.843 300 150C300 67.1571 232.842 0 150 0ZM150 262.5C87.8685 262.5 37.5002 212.132 37.5002 150C37.5002 87.8685 87.8685 37.5002 150 37.5002C212.132 37.5002 262.5 87.8685 262.5 150C262.5 212.132 212.132 262.5 150 262.5Z" fill="black"/>
+</mask>
+<g mask="url(#mask1)">
+<g id="Rectangle 2">
+<rect width="971" height="300" fill="#E075F5"/>
+<rect width="971" height="300" stroke="black"/>
+</g>
+</g>
+</g>
+</svg>

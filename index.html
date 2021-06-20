@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="nav">
+      <ul class="nav-list">
+        <a href="#home "><li class="nav-link home active">HOME</li></a>
+        <a href="#about"><li class="nav-link about">ABOUT</li></a>
+        <a href="#skills"><li class="nav-link skills">SKILLS</li></a>
+        <a href="#projects"><li class="nav-link projects">PROJECTS</li></a>
+      </ul>
+    </nav>
+    <button class="contact"><span>Contact Me</span></button>
+    <!-- Main Container -->
+    <div id="container">
+      <section id="home">
+        <div class="center">
+          <span>I'm <br />Naman Pokhriyal</span>
+        </div>
+      </section>
+      <section id="about">
+        <div class="basic">
+          <div class="intro">
+            <img
+              src="./images/4f278ae8-3ce3-4b22-9bfe-7660e0070c08.jpg"
+              alt="photo"
+              class="photo"
+            />
+            I am Naman Pokhriyal and I belong from Uttarakhand, a beautiful
+            state in India.<br />
+            I am curently pursuing my Bachelors in Technology with Computer
+            Science from DIT University.
+          </div>
+          <img src="./images/edu-info.png" alt="edu-info" class="edu-info" />
+        </div>
+      </section>
+      <section id="skills">
+        <div id="wrapper">
+          <div class="skill-list">
+            <div class="skill-set">
+              <label>HTML<span>100%</span></label>
+              <div class="p1 bar"><div></div></div>
+            </div>
+            <div class="skill-set">
+              <label>CSS<span>100%</span></label>
+              <div class="p2 bar"><div></div></div>
+            </div>
+            <div class="skill-set">
+              <label>JavaScript<span>75%</span></label>
+              <div class="p3 bar"><div></div></div>
+            </div>
+            <div class="skill-set">
+              <label>React JS<span>60%</span></label>
+              <div class="p4 bar"><div></div></div>
+            </div>
+            <div class="skill-set">
+              <label>Node JS<span>40%</span></label>
+              <div class="p5 bar"><div></div></div>
+            </div>
+            <div class="skill-set">
+              <label>MySQL<span>95%</span></label>
+              <div class="p6 bar"><div></div></div>
+            </div>
+            <div class="skill-set">
+              <label>WordPress<span>40%</span></label>
+              <div class="p7 bar"><div></div></div>
+            </div>
+            <div class="skill-set">
+              <label>PHP<span>0%</span></label>
+              <div class="p8 bar"><div></div></div>
+            </div>
+            <h4>Certifications:</h4>
+            <div class="certify">
+              <a
+                href="https://www.hackerrank.com/certificates/bfcb25f36a56"
+                target="_blank"
+                class="cert"
+              >
+                <img src="./images/py-cert.png" alt="Python-Certified" />
+                <p>Python Certificate</p>
+              </a>
+              <a
+                href="https://www.hackerrank.com/certificates/e9ad327a001f"
+                target="_blank"
+                class="cert"
+              >
+                <img src="./images/css-cert.png" alt="Python-Certified" />
+                <p>CSS Certificate</p>
+              </a>
+              <a href="#"></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="projects"></section>
+    </div>
+    <!-- Contact Page -->
+    <figure id="contact">
+      <div id="contact-form">
+        <button id="close-contact" class="far fa-times-circle"></button>
+
+        <form
+          id="my-form"
+          action="https://formspree.io/f/xleanvoq"
+          method="POST"
+        >
+          <div class="form-group">
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName" name="firstName" required />
+          </div>
+          <div class="form-group">
+            <label for="lastName">Last Name</label>
+            <input type="text" id="lastName" name="lastName" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              cols="20"
+              required
+            ></textarea>
+          </div>
+          <button type="submit">Submit</button>
+          <div id="my-form-status"></div>
+        </form>
+      </div>
+    </figure>
+    <!-- Background element -->
+    <div class="back one">
+      <svg
+        width="200"
+        height="62"
+        viewBox="0 0 971 300"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g id="back1">
+          <mask
+            id="mask0"
+            mask-type="alpha"
+            maskUnits="userSpaceOnUse"
+            x="0"
+            y="0"
+            width="300"
+            height="300"
+          >
+            <g id="Vector">
+              <path
+                d="M252.163 299.983C244.55 299.983 236.918 297.075 231.103 291.28L150.001 210.193L68.9136 291.28C57.2692 302.905 38.3849 302.905 26.7561 291.28L8.72158 273.242C-2.90719 261.616 -2.90719 242.713 8.72158 231.085L89.8055 150.001L8.72158 68.9136C-2.90719 57.2692 -2.90719 38.3662 8.72158 26.7561L26.7561 8.72158C38.3662 -2.88852 57.2692 -2.90719 68.898 8.72158L150.001 89.8055L231.085 8.72158C242.748 -2.90719 261.632 -2.90719 273.242 8.72158L291.28 26.7561C302.905 38.3849 302.905 57.2879 291.28 68.9136L210.193 150.001L291.28 231.085C302.905 242.713 302.905 261.616 291.28 273.242L273.242 291.28C267.431 297.075 259.799 299.983 252.163 299.983ZM150.001 179.409C153.384 179.409 156.631 180.75 159.009 183.147L249.104 273.242C250.772 274.892 253.558 274.892 255.207 273.242L273.242 255.207C274.91 253.558 274.892 250.753 273.242 249.088L183.147 159.009C178.167 154.028 178.167 145.954 183.147 140.974L273.242 50.879C274.892 49.2293 274.91 46.4248 273.242 44.7751L255.207 26.7561C253.542 25.1065 250.772 25.1065 249.088 26.7561L159.009 116.851C154.234 121.629 145.767 121.629 140.974 116.851L50.879 26.7561C49.2137 25.1065 46.4248 25.1065 44.7751 26.7561L26.7561 44.7938C25.0909 46.4404 25.1065 49.2449 26.7561 50.9132L116.851 140.99C121.831 145.97 121.831 154.047 116.851 159.027L26.7561 249.122C25.1065 250.772 25.0909 253.576 26.7561 255.223L44.7938 273.261C46.4591 274.91 49.2293 274.91 50.9132 273.261L140.99 183.166C143.371 180.75 146.617 179.409 150.001 179.409Z"
+                fill="black"
+              />
+              <path
+                d="M252.163 299.983C244.55 299.983 236.918 297.075 231.103 291.28L150.001 210.193L68.9136 291.28C57.2692 302.905 38.3849 302.905 26.7561 291.28L8.72158 273.242C-2.90719 261.616 -2.90719 242.713 8.72158 231.085L89.8055 150.001L8.72158 68.9136C-2.90719 57.2692 -2.90719 38.3662 8.72158 26.7561L26.7561 8.72158C38.3662 -2.88852 57.2692 -2.90719 68.898 8.72158L150.001 89.8055L231.085 8.72158C242.748 -2.90719 261.632 -2.90719 273.242 8.72158L291.28 26.7561C302.905 38.3849 302.905 57.2879 291.28 68.9136L210.193 150.001L291.28 231.085C302.905 242.713 302.905 261.616 291.28 273.242L273.242 291.28C267.431 297.075 259.799 299.983 252.163 299.983ZM150.001 179.409C153.384 179.409 156.631 180.75 159.009 183.147L249.104 273.242C250.772 274.892 253.558 274.892 255.207 273.242L273.242 255.207C274.91 253.558 274.892 250.753 273.242 249.088L183.147 159.009C178.167 154.028 178.167 145.954 183.147 140.974L273.242 50.879C274.892 49.2293 274.91 46.4248 273.242 44.7751L255.207 26.7561C253.542 25.1065 250.772 25.1065 249.088 26.7561L159.009 116.851C154.234 121.629 145.767 121.629 140.974 116.851L50.879 26.7561C49.2137 25.1065 46.4248 25.1065 44.7751 26.7561L26.7561 44.7938C25.0909 46.4404 25.1065 49.2449 26.7561 50.9132L116.851 140.99C121.831 145.97 121.831 154.047 116.851 159.027L26.7561 249.122C25.1065 250.772 25.0909 253.576 26.7561 255.223L44.7938 273.261C46.4591 274.91 49.2293 274.91 50.9132 273.261L140.99 183.166C143.371 180.75 146.617 179.409 150.001 179.409Z"
+                stroke="black"
+              />
+            </g>
+          </mask>
+          <g mask="url(#mask0)">
+            <g id="Rectangle 1">
+              <rect width="971" height="300" fill="#E075F5" />
+              <rect width="971" height="300" stroke="black" />
+            </g>
+          </g>
+          <mask
+            id="mask1"
+            mask-type="alpha"
+            maskUnits="userSpaceOnUse"
+            x="671"
+            y="0"
+            width="300"
+            height="300"
+          >
+            <path
+              id="Vector_2"
+              d="M821 0C738.157 0 671 67.1571 671 150C671 232.843 738.157 300 821 300C903.843 300 971 232.843 971 150C971 67.1571 903.842 0 821 0ZM821 262.5C758.868 262.5 708.5 212.132 708.5 150C708.5 87.8685 758.868 37.5002 821 37.5002C883.132 37.5002 933.5 87.8685 933.5 150C933.5 212.132 883.132 262.5 821 262.5Z"
+              fill="black"
+            />
+          </mask>
+          <g mask="url(#mask1)">
+            <g id="Rectangle 2">
+              <rect width="971" height="300" fill="#E075F5" />
+              <rect width="971" height="300" stroke="black" />
+            </g>
+          </g>
+        </g>
+      </svg>
+    </div>
+    <div class="back two">
+      <svg
+        width="200"
+        height="62"
+        viewBox="0 0 971 300"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g id="back1">
+          <mask
+            id="mask0"
+            mask-type="alpha"
+            maskUnits="userSpaceOnUse"
+            x="0"
+            y="0"
+            width="300"
+            height="300"
+          >
+            <g id="Vector">
+              <path
+                d="M252.163 299.983C244.55 299.983 236.918 297.075 231.103 291.28L150.001 210.193L68.9136 291.28C57.2692 302.905 38.3849 302.905 26.7561 291.28L8.72158 273.242C-2.90719 261.616 -2.90719 242.713 8.72158 231.085L89.8055 150.001L8.72158 68.9136C-2.90719 57.2692 -2.90719 38.3662 8.72158 26.7561L26.7561 8.72158C38.3662 -2.88852 57.2692 -2.90719 68.898 8.72158L150.001 89.8055L231.085 8.72158C242.748 -2.90719 261.632 -2.90719 273.242 8.72158L291.28 26.7561C302.905 38.3849 302.905 57.2879 291.28 68.9136L210.193 150.001L291.28 231.085C302.905 242.713 302.905 261.616 291.28 273.242L273.242 291.28C267.431 297.075 259.799 299.983 252.163 299.983ZM150.001 179.409C153.384 179.409 156.631 180.75 159.009 183.147L249.104 273.242C250.772 274.892 253.558 274.892 255.207 273.242L273.242 255.207C274.91 253.558 274.892 250.753 273.242 249.088L183.147 159.009C178.167 154.028 178.167 145.954 183.147 140.974L273.242 50.879C274.892 49.2293 274.91 46.4248 273.242 44.7751L255.207 26.7561C253.542 25.1065 250.772 25.1065 249.088 26.7561L159.009 116.851C154.234 121.629 145.767 121.629 140.974 116.851L50.879 26.7561C49.2137 25.1065 46.4248 25.1065 44.7751 26.7561L26.7561 44.7938C25.0909 46.4404 25.1065 49.2449 26.7561 50.9132L116.851 140.99C121.831 145.97 121.831 154.047 116.851 159.027L26.7561 249.122C25.1065 250.772 25.0909 253.576 26.7561 255.223L44.7938 273.261C46.4591 274.91 49.2293 274.91 50.9132 273.261L140.99 183.166C143.371 180.75 146.617 179.409 150.001 179.409Z"
+                fill="black"
+              />
+              <path
+                d="M252.163 299.983C244.55 299.983 236.918 297.075 231.103 291.28L150.001 210.193L68.9136 291.28C57.2692 302.905 38.3849 302.905 26.7561 291.28L8.72158 273.242C-2.90719 261.616 -2.90719 242.713 8.72158 231.085L89.8055 150.001L8.72158 68.9136C-2.90719 57.2692 -2.90719 38.3662 8.72158 26.7561L26.7561 8.72158C38.3662 -2.88852 57.2692 -2.90719 68.898 8.72158L150.001 89.8055L231.085 8.72158C242.748 -2.90719 261.632 -2.90719 273.242 8.72158L291.28 26.7561C302.905 38.3849 302.905 57.2879 291.28 68.9136L210.193 150.001L291.28 231.085C302.905 242.713 302.905 261.616 291.28 273.242L273.242 291.28C267.431 297.075 259.799 299.983 252.163 299.983ZM150.001 179.409C153.384 179.409 156.631 180.75 159.009 183.147L249.104 273.242C250.772 274.892 253.558 274.892 255.207 273.242L273.242 255.207C274.91 253.558 274.892 250.753 273.242 249.088L183.147 159.009C178.167 154.028 178.167 145.954 183.147 140.974L273.242 50.879C274.892 49.2293 274.91 46.4248 273.242 44.7751L255.207 26.7561C253.542 25.1065 250.772 25.1065 249.088 26.7561L159.009 116.851C154.234 121.629 145.767 121.629 140.974 116.851L50.879 26.7561C49.2137 25.1065 46.4248 25.1065 44.7751 26.7561L26.7561 44.7938C25.0909 46.4404 25.1065 49.2449 26.7561 50.9132L116.851 140.99C121.831 145.97 121.831 154.047 116.851 159.027L26.7561 249.122C25.1065 250.772 25.0909 253.576 26.7561 255.223L44.7938 273.261C46.4591 274.91 49.2293 274.91 50.9132 273.261L140.99 183.166C143.371 180.75 146.617 179.409 150.001 179.409Z"
+                stroke="black"
+              />
+            </g>
+          </mask>
+          <g mask="url(#mask0)">
+            <g id="Rectangle 1">
+              <rect width="971" height="300" fill="#E075F5" />
+              <rect width="971" height="300" stroke="black" />
+            </g>
+          </g>
+          <mask
+            id="mask1"
+            mask-type="alpha"
+            maskUnits="userSpaceOnUse"
+            x="671"
+            y="0"
+            width="300"
+            height="300"
+          >
+            <path
+              id="Vector_2"
+              d="M821 0C738.157 0 671 67.1571 671 150C671 232.843 738.157 300 821 300C903.843 300 971 232.843 971 150C971 67.1571 903.842 0 821 0ZM821 262.5C758.868 262.5 708.5 212.132 708.5 150C708.5 87.8685 758.868 37.5002 821 37.5002C883.132 37.5002 933.5 87.8685 933.5 150C933.5 212.132 883.132 262.5 821 262.5Z"
+              fill="black"
+            />
+          </mask>
+          <g mask="url(#mask1)">
+            <g id="Rectangle 2">
+              <rect width="971" height="300" fill="#E075F5" />
+              <rect width="971" height="300" stroke="black" />
+            </g>
+          </g>
+        </g>
+      </svg>
+    </div>
+    <div class="cursor"></div>
+  </body>
+  <script src="app.js"></script>
+</html>
