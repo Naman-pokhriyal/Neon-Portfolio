@@ -11,7 +11,6 @@ parent.addEventListener("scroll", () => {
     const sectionLeft = section.offsetLeft;
     if (scrolled + 1 >= sectionLeft) {
       current = section.getAttribute("id");
-      console.log(current);
     }
     if (section.getAttribute("id") != current) {
       section.style.overflow = "hidden";
