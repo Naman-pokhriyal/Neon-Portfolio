@@ -77,7 +77,7 @@ function mouseMove(e) {
 // Form
 
 var form = document.getElementById("my-form");
-var Contact = document.getElementById("contact");
+var Contact = document.querySelector(".contact-page");
 var formClose = document.getElementById("close-contact");
 
 async function handleSubmit(event) {
@@ -104,14 +104,14 @@ async function handleSubmit(event) {
 form.addEventListener("submit", handleSubmit);
 
 formClose.addEventListener("click", () => {
-  Contact.style.display = "none";
+  Contact.classList.toggle("show");
   cursor.classList.remove("no");
 });
 
 const OpenContact = document.querySelector(".contact");
 
 OpenContact.addEventListener("click", () => {
-  Contact.style.display = "grid";
+  Contact.classList.toggle("show");
   cursor.classList.add("no");
 });
 
